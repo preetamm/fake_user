@@ -1,0 +1,22 @@
+.homepage{
+    
+    height: 70vh;
+    padding: 30px  70px;
+    .wrapper{
+        display: flex;
+
+        .userlistwrapper{
+            width: 70vw;
+            height: 70vh;
+            margin-left : 30px;
+            display:  flex;
+            flex-direction: column;
+            justify-content: center;
+        
+        }
+       
+    }
+
+    
+
+}

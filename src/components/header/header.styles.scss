@@ -1,0 +1,47 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4285f4;
+
+  .logo-container {
+    height: 100%;
+    width: 200px;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+   
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    .nav-wrapper {
+      display: flex;
+      flex-direction: row;
+
+
+    }
+
+    .nav-style {
+      text-decoration: none;
+      color: black;
+    }
+
+    .option {
+      padding: 10px 15px;
+      color: black;
+      background-color: white;
+      border-radius: 50px;
+      margin-left: 300px;
+      
+    }
+  }
+}

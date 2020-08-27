@@ -1,0 +1,24 @@
+.userlist {
+
+    border-radius: 10px;
+   
+    height: 90%;
+    flex-grow: 1;
+    background-color: rgba(187, 173, 173, 0.479);
+
+    .usercontainer {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        //border: 0.5px solid rgba(0, 0, 0, 0.486);
+
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+
+        p {
+            margin: 15px 0px;
+        }
+
+    }
+}

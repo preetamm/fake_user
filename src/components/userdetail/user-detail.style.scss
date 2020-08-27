@@ -1,0 +1,62 @@
+.userdetail {
+    border: 1px solid rgba(156, 150, 150, 0.548);
+    height: 47vh;
+    flex-grow: 1;
+    width: 30vw;
+    padding: 10px;
+
+    .detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+
+
+        &__name {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__avatar img {
+            border-radius: 70px;
+        }
+
+        &__email {
+            margin-bottom: 30px;
+        }
+
+        .btn-group {
+
+            &__option {
+
+                padding: 5px 15px;
+                border-radius: 50px;
+                border: 1 px solid black;
+                cursor: pointer;
+
+                text-decoration: none;
+                outline: none;
+
+
+                &--update {
+                    color: white;
+                    background-color: #4285f4;
+                }
+
+                &--delete {
+                    color: black;
+
+                }
+
+            }
+        }
+    }
+
+
+    .detail:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+}
